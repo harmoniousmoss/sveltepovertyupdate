@@ -1,7 +1,7 @@
 <script>
 	import { fly } from 'svelte/transition';
 	import { onMount } from 'svelte';
-
+	export let contentRef;
 	let mounted = false;
 
 	onMount(() => {
@@ -13,18 +13,18 @@
 
 <!-- Add the fly transition only when the component is mounted to ensure the animation plays on initial load -->
 {#if mounted}
-	<div in:fly={{ x: 300, duration: 1000 }}>
+	<div in:fly={{ y: -50, duration: 1000 }}>
 		<section class="py-10 sm:py-16 lg:py-24">
 			<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
 					<div>
 						<h1
-							class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-600 to-gray-500 bg-clip-text sm:text-6xl lg:text-7xl"
+							class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-600 to-black bg-clip-text sm:text-6xl lg:text-7xl"
 						>
 							Visualised: Poverty and income inequality
 						</h1>
 
-						<p class="mt-8 text-base text-gray-900 sm:text-xl">
+						<p class="mt-8 text-base text-gray-700 sm:text-xl">
 							This month we look at the changes in poverty and inequality across Indonesia. As of
 							March 2023, the poverty rate was nearly back to pre-pandemic poverty levels, though
 							there had been a slight rise in inequality.
@@ -34,8 +34,9 @@
 							<a
 								href="/"
 								title=""
-								class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-xl bg-gradient-to-b from-cyan-500 to-gray-400 hover:text-gray-900"
+								class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 ease-in-out transform hover:scale-105 rounded-xl bg-gradient-to-b from-cyan-500 to-gray-700"
 								role="button"
+								on:click|preventDefault={() => contentRef.scrollIntoView({ behavior: 'smooth' })}
 							>
 								Start exploring
 							</a>
