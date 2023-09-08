@@ -18,7 +18,9 @@
 			<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
 					<div>
-						<h1 class="text-4xl font-bold text-gray-900 sm:text-6xl lg:text-7xl">
+						<h1
+							class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-600 to-gray-500 bg-clip-text sm:text-6xl lg:text-7xl"
+						>
 							Visualised: Poverty and income inequality
 						</h1>
 
@@ -32,7 +34,7 @@
 							<a
 								href="/"
 								title=""
-								class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-xl bg-cyan-500 hover:bg-cyan-600 focus:bg-cyan-500"
+								class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-xl bg-gradient-to-b from-cyan-500 to-gray-400 hover:text-gray-900"
 								role="button"
 							>
 								Start exploring

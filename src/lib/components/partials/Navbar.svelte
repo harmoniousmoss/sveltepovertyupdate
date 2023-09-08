@@ -12,7 +12,7 @@
 <!-- Add the fly transition only when the component is mounted to ensure the animation plays on initial load -->
 {#if mounted}
 	<div in:fly={{ x: -300, duration: 1000 }} class="...">
-		<header class="">
+		<header class="bg-white">
 			<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 				<div class="flex items-center justify-between h-16 lg:h-20">
 					<div class="flex-shrink-0">
@@ -71,7 +71,7 @@
 						<a
 							href="https://newsletter.prospera.or.id"
 							title=""
-							class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-gray-900 border-2 border-cyan-500 hover:bg-cyan-500 hover:text-white transition-all duration-200 focus:bg-cyan-500 focus:text-white rounded-xl"
+							class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-cyan-500 border-2 border-cyan-500 hover:bg-cyan-500 hover:text-white transition-all duration-200 focus:bg-cyan-500 focus:text-white rounded-xl"
 							role="button"
 						>
 							Frontpage
