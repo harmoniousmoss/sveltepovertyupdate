@@ -16,7 +16,7 @@
 					<a
 						href="/"
 						title=""
-						class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-xl bg-cyan-500 hover:bg-cyan-700 focus:bg-cyan-500"
+						class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 rounded-xl bg-cyan-500 hover:bg-cyan-600 focus:bg-cyan-500"
 						role="button"
 					>
 						Start exploring
