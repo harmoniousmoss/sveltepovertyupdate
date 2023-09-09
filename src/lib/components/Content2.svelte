@@ -1,33 +1,26 @@
-<script>
-	export let contentRef;
-</script>
-
-<section
-	bind:this={contentRef}
-	class="h-screen py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white"
->
+<section class="h-screen py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-cyan-50 to-white">
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div style="flex: 0 0 100%;">
 			<div class="relative mt-2">
 				<div class="relative flex justify-start">
 					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
-						Over the last decade Indonesia has made progress in reducing poverty both nominally and
-						as a percentage of the population. However, Covid-19 proved a setback with the national
-						poverty rate only now nearing pre-pandemic levels.
+						In March 2023, the national poverty rate had decreased from a year earlier. While this
+						reduction was reflected in most provinces, it was not the case across the board with a
+						notable increase in Maluku.
 					</span>
 				</div>
 			</div>
 
 			<div class="mt-6">
 				<iframe
-					title="Indonesian Population Living in Poverty"
-					aria-label="Interactive line chart"
-					id="datawrapper-chart-RoaJV"
-					src="https://datawrapper.dwcdn.net/RoaJV/2/"
+					title="Changes in the poverty rate varied by province"
+					aria-label="Map"
+					id="datawrapper-chart-r1k6Z"
+					src="https://datawrapper.dwcdn.net/r1k6Z/1/"
 					scrolling="no"
 					frameborder="0"
 					style="width: 0; min-width: 100% !important; border: none;"
-					height="287"
+					height="319"
 					data-external="1"
 				/><script type="text/javascript">
 					!(function () {
