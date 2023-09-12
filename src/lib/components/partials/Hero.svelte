@@ -8,7 +8,7 @@
 			<!-- First section -->
 			<div>
 				<h1
-					class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-600 to-black bg-clip-text sm:text-6xl lg:text-7xl"
+					class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-500 to-amber-400 bg-clip-text sm:text-6xl lg:text-7xl"
 				>
 					Visualised: Poverty and income inequality
 				</h1>
@@ -21,7 +21,7 @@
 					<a
 						href="/"
 						title=""
-						class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 ease-in-out transform hover:scale-105 rounded-xl bg-gradient-to-b from-cyan-500 to-gray-700"
+						class="inline-flex items-center justify-center px-10 py-4 text-base font-semibold text-white transition-all duration-200 ease-in-out transform hover:scale-105 rounded-xl bg-cyan-500"
 						role="button"
 						on:click|preventDefault={() => contentRef.scrollIntoView({ behavior: 'smooth' })}
 					>
