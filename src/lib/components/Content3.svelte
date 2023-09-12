@@ -27,14 +27,14 @@
 
 			<div class="mt-6">
 				<iframe
-					title="The share of people in poverty has decreased across Indonesia "
-					aria-label="Interactive line chart"
-					id="datawrapper-chart-SfeL7"
-					src="https://datawrapper.dwcdn.net/SfeL7/2/"
+					title="Poverty has generally decreased across the country"
+					aria-label="Range Plot"
+					id="datawrapper-chart-xqRZD"
+					src="https://datawrapper.dwcdn.net/xqRZD/2/"
 					scrolling="no"
 					frameborder="0"
 					style="width: 0; min-width: 100% !important; border: none;"
-					height="400"
+					height="190"
 					data-external="1"
 				/><script type="text/javascript">
 					!(function () {
