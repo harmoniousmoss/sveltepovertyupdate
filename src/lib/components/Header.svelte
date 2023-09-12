@@ -4,7 +4,7 @@
 	export let contentRef;
 </script>
 
-<div class="bg-gradient-to-b from-cyan-100 to-white">
+<div class="h-auto bg-gradient-to-b from-cyan-100 to-white lg:h-screen sm:h-auto">
 	<Navbar />
 	<Hero bind:contentRef />
 </div>
