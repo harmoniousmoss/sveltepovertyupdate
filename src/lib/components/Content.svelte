@@ -4,7 +4,7 @@
 
 <section
 	bind:this={contentRef}
-	class="h-screen py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white"
+	class="h-auto py-20 lg:h-screen sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white sm:h-auto"
 >
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div style="flex: 0 0 100%;">
