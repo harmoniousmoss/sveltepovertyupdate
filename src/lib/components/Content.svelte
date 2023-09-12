@@ -1,5 +1,17 @@
 <script>
+	import { onMount } from 'svelte';
+	import { animate, scroll } from 'motion';
 	export let contentRef;
+
+	onMount(() => {
+		const contentSections = document.querySelectorAll('section > div');
+		contentSections.forEach((section) => {
+			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
+				target: section,
+				offset: ['start end', 'end end', 'start start', 'end start']
+			});
+		});
+	});
 </script>
 
 <section
@@ -29,7 +41,8 @@
 					style="width: 0; min-width: 100% !important; border: none;"
 					height="287"
 					data-external="1"
-				/><script type="text/javascript">
+				/>
+				<script type="text/javascript">
 					!(function () {
 						'use strict';
 						window.addEventListener('message', function (a) {

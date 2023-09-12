@@ -1,6 +1,19 @@
-<section
-	class="h-auto py-20 lg:h-screen sm:py-24 lg:py-28 bg-gradient-to-b from-cyan-50 to-white sm:h-auto"
->
+<script>
+	import { onMount } from 'svelte';
+	import { animate, scroll } from 'motion';
+
+	onMount(() => {
+		const contentSections = document.querySelectorAll('section > div');
+		contentSections.forEach((section) => {
+			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
+				target: section,
+				offset: ['start end', 'end end', 'start start', 'end start']
+			});
+		});
+	});
+</script>
+
+<section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-cyan-50 to-white">
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div style="flex: 0 0 100%;">
 			<div class="relative mt-2">

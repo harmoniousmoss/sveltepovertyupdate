@@ -1,5 +1,17 @@
 <script>
+	import { onMount } from 'svelte';
+	import { animate, scroll } from 'motion';
 	export let contentRef;
+
+	onMount(() => {
+		const heroSections = document.querySelectorAll('section > div > div');
+		heroSections.forEach((section) => {
+			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
+				target: section,
+				offset: ['start end', 'end end', 'start start', 'end start']
+			});
+		});
+	});
 </script>
 
 <section class="py-10 sm:py-16 lg:py-24">
