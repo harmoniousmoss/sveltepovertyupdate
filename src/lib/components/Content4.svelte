@@ -18,15 +18,25 @@
 		<div style="flex: 0 0 100%;">
 			<div class="relative mt-2">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
+					<h1 class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
 						In regional terms, poverty rates tend to be higher in rural than urban areas, with the
 						notable of Java where urban poverty is higher.
-					</span>
+					</h1>
+				</div>
+				<div class="relative flex justify-start mt-4">
+					<p class="text-base font-extrabold text-black sm:text-sm lg:text-2xl sm:font-medium">
+						People living in poverty in urban and rural areas across Indonesia’s regions
+					</p>
+				</div>
+				<div class="relative flex justify-start">
+					<p class="text-xs font-bold text-black sm:text-xs lg:text-base sm:font-medium">
+						Million people, %
+					</p>
 				</div>
 			</div>
 
 			<div class="mt-6">
-				<img src="/regional-term.png" alt="Regional cover section" class="rounded-lg" />
+				<img src="/regional-term.jpeg" alt="Regional cover section" class="rounded-xl" />
 			</div>
 		</div>
 	</div>

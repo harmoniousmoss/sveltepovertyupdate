@@ -44,11 +44,7 @@
 
 			<!-- Second section -->
 			<div>
-				<img
-					class="w-full"
-					src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png"
-					alt=""
-				/>
+				<img class="w-full rounded-xl" src="/hero-img-poverty.png" alt="" />
 			</div>
 		</div>
 	</div>
