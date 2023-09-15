@@ -19,7 +19,7 @@
 			<!-- First section (Full width on small screens, 1/4 on larger screens) -->
 			<div class="mt-2 sm:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-lg sm:font-medium">
+					<span class="text-xl text-gray-900 lg:text-base">
 						Rural poverty rates have dropped more significantly than in urban areas, albeit from a
 						higher peak, decreasing by nearly a percentage point since September 2020.
 					</span>

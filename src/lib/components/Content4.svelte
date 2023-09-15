@@ -19,7 +19,7 @@
 			<!-- First section (1/4 on lg) -->
 			<div class="lg:col-span-1">
 				<div class="relative space-y-4">
-					<h1 class="text-base font-bold text-gray-900 sm:text-sm lg:text-lg sm:font-medium">
+					<h1 class="text-xl text-gray-900 lg:text-base">
 						In regional terms, poverty rates tend to be higher in rural than urban areas, with the
 						notable exception of Java where urban poverty is higher.
 					</h1>
@@ -28,10 +28,10 @@
 
 			<!-- Second section (3/4 on lg) -->
 			<div class="mt-4 lg:mt-0 lg:col-span-3">
-				<p class="text-base font-extrabold text-black sm:text-lg lg:text-xl">
+				<p class="text-2xl font-bold text-gray-900 lg:text-xl">
 					People living in poverty in urban and rural areas across Indonesia’s regions
 				</p>
-				<p class="text-xs font-bold text-black sm:text-xs lg:text-base">Million people, %</p>
+				<p class="text-sm">Million people, %</p>
 				<img
 					src="/regional-term.jpeg"
 					alt="Regional cover section"

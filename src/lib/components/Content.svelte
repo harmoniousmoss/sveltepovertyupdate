@@ -23,7 +23,7 @@
 			<!-- First Section -->
 			<div class="relative mt-2 lg:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-2xl lg:text-lg sm:font-medium">
+					<span class="text-xl text-gray-900 lg:text-base">
 						Over the last decade Indonesia has made progress in reducing poverty both nominally and
 						as a percentage of the population. However, Covid-19 proved a setback with the national
 						poverty rate only now nearing pre-pandemic levels.

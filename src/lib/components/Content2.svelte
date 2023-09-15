@@ -19,7 +19,7 @@
 			<!-- First section (Full width on small screens, 1/4 on larger screens) -->
 			<div class="sm:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-lg sm:font-medium">
+					<span class="text-xl text-gray-900 lg:text-base">
 						In March 2023, the national poverty rate had decreased from a year earlier. While this
 						reduction was reflected in most provinces, it was not the case across the board with a
 						notable increase in Maluku.
