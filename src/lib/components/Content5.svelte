@@ -13,7 +13,7 @@
 	});
 </script>
 
-<section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
+<section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-100 to-white">
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-4">
 			<!-- First section (Full width on small screens, 1/4 on larger screens) -->
