@@ -19,7 +19,7 @@
 <button
 	id="backToTopBtn"
 	on:click={topFunction}
-	class="fixed hidden w-10 h-10 text-white transition-colors duration-200 ease-in bg-black rounded-full bottom-4 right-4 focus:outline-none hover:bg-gray-700"
+	class="fixed hidden w-10 h-10 text-white transition-colors duration-200 ease-in rounded-full bg-blackg bottom-4 right-4 focus:outline-none hover:bg-gray-700"
 >
 	&#8679;
 </button>
