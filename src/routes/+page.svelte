@@ -6,6 +6,8 @@
 	import Content5 from '../lib/components/Content5.svelte';
 	import Footer from '../lib/components/Footer.svelte';
 	import Header from '../lib/components/Header.svelte';
+	import BackToTop from '../lib/components/partials/BackToTop.svelte';
+
 	let contentRef;
 </script>
 
@@ -15,4 +17,5 @@
 <Content3 />
 <Content4 />
 <Content5 />
+<BackToTop />
 <Footer />
