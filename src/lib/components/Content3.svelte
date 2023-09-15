@@ -3,7 +3,7 @@
 	import { animate, scroll } from 'motion';
 
 	onMount(() => {
-		const contentSections = document.querySelectorAll('section > div');
+		const contentSections = document.querySelectorAll('section > div > div');
 		contentSections.forEach((section) => {
 			scroll(animate(section, { opacity: [0, 1, 1, 0] }), {
 				target: section,
@@ -14,18 +14,20 @@
 </script>
 
 <section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white">
-	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
-		<div style="flex: 0 0 100%;">
-			<div class="relative mt-2">
+	<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div class="grid grid-cols-1 gap-8 sm:grid-cols-4">
+			<!-- First section (Full width on small screens, 1/4 on larger screens) -->
+			<div class="mt-2 sm:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
+					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-lg sm:font-medium">
 						Rural poverty rates have dropped more significantly than in urban areas, albeit from a
 						higher peak, decreasing by nearly a percentage point since September 2020.
 					</span>
 				</div>
 			</div>
 
-			<div class="mt-6">
+			<!-- Second section (Full width on small screens, 3/4 on larger screens) -->
+			<div class="mt-2 sm:col-span-3 lg:mt-0">
 				<iframe
 					title="Poverty has generally decreased across the country"
 					aria-label="Range Plot"
@@ -36,7 +38,8 @@
 					style="width: 0; min-width: 100% !important; border: none;"
 					height="190"
 					data-external="1"
-				/><script type="text/javascript">
+				/>
+				<script type="text/javascript">
 					!(function () {
 						'use strict';
 						window.addEventListener('message', function (a) {

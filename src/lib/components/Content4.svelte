@@ -14,29 +14,29 @@
 </script>
 
 <section class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-cyan-50 to-white">
-	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
-		<div style="flex: 0 0 100%;">
-			<div class="relative mt-2">
-				<div class="relative flex justify-start">
-					<h1 class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
+	<div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
+			<!-- First section (1/4 on lg) -->
+			<div class="lg:col-span-1">
+				<div class="relative space-y-4">
+					<h1 class="text-base font-bold text-gray-900 sm:text-sm lg:text-lg sm:font-medium">
 						In regional terms, poverty rates tend to be higher in rural than urban areas, with the
-						notable of Java where urban poverty is higher.
+						notable exception of Java where urban poverty is higher.
 					</h1>
-				</div>
-				<div class="relative flex justify-start mt-4">
-					<p class="text-base font-extrabold text-black sm:text-sm lg:text-2xl sm:font-medium">
-						People living in poverty in urban and rural areas across Indonesia’s regions
-					</p>
-				</div>
-				<div class="relative flex justify-start">
-					<p class="text-xs font-bold text-black sm:text-xs lg:text-base sm:font-medium">
-						Million people, %
-					</p>
 				</div>
 			</div>
 
-			<div class="mt-6">
-				<img src="/regional-term.jpeg" alt="Regional cover section" class="rounded-xl" />
+			<!-- Second section (3/4 on lg) -->
+			<div class="mt-4 lg:mt-0 lg:col-span-3">
+				<p class="text-base font-extrabold text-black sm:text-lg lg:text-xl">
+					People living in poverty in urban and rural areas across Indonesia’s regions
+				</p>
+				<p class="text-xs font-bold text-black sm:text-xs lg:text-base">Million people, %</p>
+				<img
+					src="/regional-term.jpeg"
+					alt="Regional cover section"
+					class="w-full mt-4 rounded-xl"
+				/>
 			</div>
 		</div>
 	</div>

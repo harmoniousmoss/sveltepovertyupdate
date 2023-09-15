@@ -16,13 +16,14 @@
 
 <section
 	bind:this={contentRef}
-	class="h-auto py-20 lg:h-screen sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white sm:h-auto"
+	class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white"
 >
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
-		<div style="flex: 0 0 100%;">
-			<div class="relative mt-2">
+		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
+			<!-- First Section -->
+			<div class="relative mt-2 lg:col-span-1">
 				<div class="relative flex justify-start">
-					<span class="text-base font-bold text-gray-900 sm:text-sm lg:text-2xl sm:font-medium">
+					<span class="text-base font-bold text-gray-900 sm:text-2xl lg:text-lg sm:font-medium">
 						Over the last decade Indonesia has made progress in reducing poverty both nominally and
 						as a percentage of the population. However, Covid-19 proved a setback with the national
 						poverty rate only now nearing pre-pandemic levels.
@@ -30,7 +31,8 @@
 				</div>
 			</div>
 
-			<div class="mt-6">
+			<!-- Second section -->
+			<div class="mt-2 lg:col-span-3">
 				<iframe
 					title="Indonesian Population Living in Poverty"
 					aria-label="Interactive line chart"
