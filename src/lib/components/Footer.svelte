@@ -84,6 +84,17 @@
 			<p class="text-sm text-gray-600">© Copyright 2022 Prospera. All Rights Reserved</p>
 
 			<ul class="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
+				<li class="flex items-center ml-5 text-sm text-gray-600">
+					Made with 💗 with <a
+						href="https://svelte.dev/"
+						class="ml-1 text-cyan-500 hover:underline"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Svelte</a
+					>
+				</li>
+
 				<li>
 					<a
 						href="https://prospera.or.id"
