@@ -16,7 +16,7 @@
 
 <section
 	bind:this={contentRef}
-	class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-100 to-white"
+	class="py-20 sm:py-24 lg:py-28 bg-gradient-to-b from-gray-50 to-white"
 >
 	<div class="px-4 mx-auto overflow-auto max-w-7xl sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 lg:grid-cols-4">
