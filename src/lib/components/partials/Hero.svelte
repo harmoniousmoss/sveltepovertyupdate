@@ -22,7 +22,7 @@
 				<h1
 					class="text-4xl font-bold text-transparent bg-gradient-to-b from-cyan-500 to-amber-400 bg-clip-text sm:text-6xl lg:text-7xl"
 				>
-					Visualised: Poverty and income inequality
+					Visualised: Poverty and expenditure inequality
 				</h1>
 				<p class="mt-8 text-base text-gray-700 sm:text-lg lg:text-xl">
 					This month we look at the changes in poverty and inequality across Indonesia. As of March
