@@ -20,9 +20,9 @@
 			<div class="sm:col-span-1">
 				<div class="relative flex justify-start">
 					<span class="text-xl text-gray-900 lg:text-base">
-						While poverty has dropped, income inequality has been on the rise. Inequality in rural
-						areas has been relatively stable, but increasing inequality in urban areas has driven an
-						upward trend across the country.
+						While poverty has dropped, expenditure inequality has been on the rise. Inequality in
+						rural areas has been relatively stable, but increasing inequality in urban areas has
+						driven an upward trend across the country.
 					</span>
 				</div>
 			</div>
