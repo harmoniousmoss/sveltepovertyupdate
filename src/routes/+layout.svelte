@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-	<title>Visualised: Poverty and income inequality</title>
+	<title>Visualised: Poverty and expenditure inequality</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
