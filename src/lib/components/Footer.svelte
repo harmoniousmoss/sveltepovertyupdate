@@ -86,12 +86,12 @@
 			<ul class="flex items-center mt-5 space-x-3 md:order-3 sm:mt-0">
 				<li class="flex items-center ml-5 text-sm text-gray-600">
 					Made with 💗 with <a
-						href="https://svelte.dev/"
+						href="https://prosperadev.net/"
 						class="ml-1 text-cyan-500 hover:underline"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						Svelte</a
+						Open Source</a
 					>
 				</li>
 
