@@ -49,7 +49,7 @@
 </script>
 
 <svelte:head>
-	<title>Visualised: Poverty and expenditure inequality</title>
+	<title>Explainer: Advancing a low carbon growth strategy</title>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 

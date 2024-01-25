@@ -25,6 +25,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"motion": "^10.16.2"
+		"aos": "^2.3.4"
 	}
 }

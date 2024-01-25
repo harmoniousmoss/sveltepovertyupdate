@@ -61,7 +61,7 @@
 				<a
 					href="https://newsletter.prospera.or.id"
 					title=""
-					class="inline-flex items-center justify-center px-5 py-2.5 text-base font-semibold text-cyan-500 border-2 border-cyan-500 hover:bg-cyan-500 hover:text-white transition-all duration-200 focus:bg-cyan-500 focus:text-white rounded-xl transform hover:scale-105 ease-in-out"
+					class="inline-flex items-center justify-center px-6 py-2 text-base font-semibold text-white transition-all duration-200 ease-in-out transform rounded-full focus:bg-blueshade20 focus:text-white hover:bg-yellowshade20 bg-blueshade20 hover:underline"
 					role="button"
 				>
 					Home
